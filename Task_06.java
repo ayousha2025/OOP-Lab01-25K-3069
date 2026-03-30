@@ -12,10 +12,10 @@ public class Task_06 {
         studentId = input.nextInt();
         input.nextLine();
         System.out.println("Enter your name: ");
-        name = input.nextLine();
+        name = input.nextLine(); //reads after a space too
         System.out.println("Enter your no of courses: ");
         no_of_courses = input.nextInt();
-        input.nextLine();
+        input.nextLine(); //consider space as terminator
         String[] courses = new String[no_of_courses];
         System.out.println("Enter your courses name: ");
         for(int i = 0 ; i < no_of_courses ; i++){
